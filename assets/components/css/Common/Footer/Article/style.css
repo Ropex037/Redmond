@@ -1,0 +1,14 @@
+.article{
+    /* Define your styles ;) */
+}
+.article ul{
+    list-style: none;
+}
+.article img{
+    height: 20px;
+    display: inline-block;
+    padding-left: 20px;
+}
+.article li{
+    padding-bottom: 20px;
+}

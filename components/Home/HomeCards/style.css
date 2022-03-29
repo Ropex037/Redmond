@@ -1,0 +1,32 @@
+.homecards{
+   padding:80px 0px;
+   background-color: var(--white-500);
+   border-radius: var(--br-s);
+   -webkit-box-shadow: 5px 5px 15px 5px rgb(0, 0, 0, 0.25); 
+box-shadow: 5px 2px 15px 2px rgb(0, 0, 0, 0.25);
+margin-bottom: 20px;
+}
+
+.homecards:hover{
+    background-color: var(--red-500);
+    transition: ease-in-out 0.5s;
+    color: var(--white-500);
+}
+.homecards:hover h3{
+    color: var(--white-500);
+}
+.homecards:hover .card-svg{
+    background-color: var(--blue-500);
+    transition: ease-in-out 0.5s;
+}
+.homecards h3{
+    color: var(--blue-500);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+.homecards p{
+    padding: 0 50px;
+}
+.card-link{
+    color: var(--black-500);
+}

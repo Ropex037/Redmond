@@ -1,0 +1,11 @@
+.singleelement{
+   columns: var(--white-500);
+   background-color: var(--red-500);
+   border-radius: var(--br-l);
+   padding: 20px;
+}
+
+.singleelement p{
+    text-align: center;
+}
+

@@ -1,0 +1,77 @@
+.homefaq{
+   margin: 10% 0;
+   position: relative;
+}
+.homefaq-svg-top{
+    position: absolute;
+    right: -10%;
+    top: -30%;
+}
+.homefaq-left{
+    position: relative;
+    padding-top: 8%;
+}
+.homefaq-svg{
+    position: absolute;
+    left: 18%;
+    top: 0;
+}
+
+.accordion-item{
+    background-color: var(--white-500);
+    box-shadow: 0 9px 35px 0 rgb(0 0 0 / 9%);
+   border-radius: var(--br-s);
+    margin-bottom: 20px;
+    border: none;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: var(--white-500);
+    background-color: var(--red-500);
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-body {
+    padding: 1rem 1.25rem;
+    background-color:var(--red-500);
+    color: var(--white-500);
+}
+.accordion-header{
+    
+    border-radius: var(--br-s);
+    border-bottom-left-radius: none !important;
+}
+.accordion-button::after {
+
+    margin-left: auto !important;
+}
+
+.accordion-button .collapsed{
+    border-radius: var(--br-l);
+}
+.accordion-body{
+    border-bottom-left-radius: var(--br-s);
+    border-bottom-right-radius: var(--br-s);
+}
+.collapsed{
+    border-bottom: var(--br-s) !important;
+}
+.accordion-item:first-of-type {
+   
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+}
+.homefaq-right{
+    position: relative;
+}
+.homefaq-right-svg svg{
+    position: absolute;
+    top: -10%;
+    left: 18%;
+}
+@media(max-width:992px){
+    .homefaq-svg-top{
+        display: none;
+    }
+}

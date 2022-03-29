@@ -1,0 +1,31 @@
+
+.serviceslist h2{
+    text-align: center;
+    color: var(--blue-500);
+    padding: 20px 0;
+    font-weight: bold;
+}
+.serviceslist ul{
+    column-count: 2;
+    list-style: none;
+}
+.serviceslist li{
+    color: var(--white-500);
+     margin-bottom: 20px;
+}
+.listbotxt{
+    padding-bottom: 20px;
+}
+@media(max-width:1200px){
+    .serviceslist ul{
+        column-count: 2;
+        list-style: none;
+        padding: 5%;
+    }
+}
+@media(max-width:992px){
+    .serviceslist ul{
+        column-count: 1;
+        list-style: none;
+    }
+}

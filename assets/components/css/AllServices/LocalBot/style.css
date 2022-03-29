@@ -1,0 +1,6 @@
+.localbot h2{
+   color: var(--blue-500);
+}
+.localbot p{
+    padding: 10px 0;
+}

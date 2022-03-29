@@ -1,0 +1,20 @@
+.residentiallist{
+   margin: 2% 0;
+   position: relative;
+   overflow: hidden;
+}
+.homeservices-svg-3{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: -1;
+}
+
+.singlelist{
+    margin-bottom: 20px;
+    color: var(--white-500);
+    text-align: start;
+}
+.resilisttxt{
+    text-align: center;
+}

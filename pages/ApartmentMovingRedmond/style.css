@@ -1,0 +1,46 @@
+.mbytxt{
+    font-weight: bold;
+}
+
+.localbot h2{
+    padding-top: 30px;
+}
+.apartment-moving{
+    overflow: hidden;
+    position: relative;
+}
+.homeservices-svg-3{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: -1;
+}
+.singlelist{
+    margin-bottom: 20px;
+    color: var(--white-500);
+}
+.reachout{
+    text-align: center;
+}
+.reachout a{
+    color: var(--red-500);
+    }
+    .navbar {
+        background-color:transparent !important;
+    }
+    
+    .initial-nav {
+        background-color: transparent !important;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--white-500) !important;
+    }
+    .scrolled {
+        display: block;
+        background-color:var(--white-500) !important;
+        width: 100vw !important;
+        color: black;
+    }
+    .scrolled.navbar-light .navbar-nav .nav-link {
+        color: var(--black-500) !important;
+    }

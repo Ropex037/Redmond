@@ -1,0 +1,115 @@
+.homeservices{
+    position: relative;
+}
+.homeservices .homeservices-svg-3{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    }
+.homeservices.red-line{
+    background-color: var(--red-500);
+    height: 8px;
+    width: 30px;
+    border-radius: var(--br-l);
+    display:inline-block;
+}
+
+.homeservices-left{
+    padding-top: 20%;
+  
+}
+.homeservices-left h3{
+    color: var(--red-500);
+    padding-bottom: 20px;
+}
+.homeservices-left h2{
+    color: var(--blue-500);
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+} 
+.homeservices-left p{
+    font-size: 18px;
+    padding: 40px 0;
+}
+ .homeservices-left{
+    position: relative;
+    margin-bottom: 80px;
+}
+.homeservices .homeservices-left .homeservices-svg-1{
+    position: absolute;
+    top: 10%;
+    right: 35%;
+}
+.homeservices .homeservices-left .homeservice-svg-2{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+.homeservices .homeservices-right{
+position: relative;
+}
+
+.card-svg{
+    background-color: var(--red-500);
+    padding: 15px 20px;
+    width: 25%;
+    border-radius: var(--br-l);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.card-svg svg{
+    margin: auto;
+    fill: var(--white-500);
+
+}
+.cardtitle{
+    text-align: center;
+}
+.cardtxt{
+    text-align: center;
+}
+
+
+.homeservices .red-line{
+    background-color: var(--red-500);
+    height: 8px;
+    width: 30px;
+    border-radius: var(--br-l);
+    display:inline-block;
+}
+.homeservices .white-line{
+    margin-left: 5px;
+    background-color:#dbdbdb;
+    height: 8px;
+    width: 60px;
+    border-radius: var(--br-l);
+    display:inline-block;
+}
+
+.homeservices-btn{
+    background-color: var(--red-500);
+    padding: 20px 60px;
+    border-radius: var(--br-l);
+    color: white;
+    box-shadow: 0 10px 35px 0 rgb(246 97 106 / 50%);
+    
+}
+.homeservices-btn:hover{
+    background-color: var(--blue-500);
+    transition: ease-in-out 0.25s;
+    color: var(--white-500);
+
+}
+
+.homeservices-svg-4{
+    position: absolute;
+    bottom: 10%;
+    right: 30%;
+}
+.homeservices-svg-5{
+    position: absolute;
+    bottom: 0%;
+    right: 60%;
+}

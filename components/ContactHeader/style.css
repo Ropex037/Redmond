@@ -1,0 +1,42 @@
+.contactheader{
+    background-image: url(/assets/images/redmond-contact-bg.webp);
+    position: relative;
+    height: 600px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.contactheader h1{
+    color: var(--white-500);
+    text-align: center;
+    padding-top: 14%;
+    font-size: 50px;
+}
+.contactheader h1::before{
+    content: '';
+    width: 65px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    right: 15px;
+}
+
+.cotnact-svg-1{
+    position: absolute;
+    top: 35%;
+    left: -10%;
+}
+.contact-svg-2{ 
+    position: absolute;
+    left: 15%;
+    top: 50%;
+}
+.contact-svg-3{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}

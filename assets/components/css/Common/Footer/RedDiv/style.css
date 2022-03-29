@@ -1,0 +1,14 @@
+.reddiv{
+   display: flex;
+   height: 8;
+   width: 10px;
+   margin-right: 10px;
+   background-color: var(--red-500);
+}
+.reddiv2{
+    display: flex;
+    height: 8;
+    width: 30px;
+    background-color: var(--red-500);
+ }
+

@@ -1,0 +1,13 @@
+.singlecard{
+    background-color: var(--red-500);
+    color: var(--white-500);
+    padding: 40px;
+    border-radius: var(--br-l);
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 20px;
+}
+.singlecard p{
+    margin: auto;
+    text-align: center;
+}

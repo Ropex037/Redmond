@@ -1,0 +1,10 @@
+.contactinfo{
+  position: relative;
+  padding-bottom: 50px;
+}
+.contactinfo-svg{
+   position: absolute;
+   z-index: -1;
+   left: -10%;
+
+}

@@ -1,0 +1,19 @@
+/* .homewhychooseus{
+    
+
+} */
+    .homewhychooseus .red-line{
+        background-color: var(--red-500);
+        height: 8px;
+        width: 30px;
+        border-radius: var(--br-l);
+        display:inline-block;
+    }
+   .homewhychooseus .white-line{
+        margin-left: 5px;
+        background-color:#dbdbdb;
+        height: 8px;
+        width: 60px;
+        border-radius: var(--br-l);
+        display:inline-block;
+    }

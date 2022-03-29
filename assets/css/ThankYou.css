@@ -1,0 +1,13 @@
+.thanks h2{
+    color: var(--blue-500);
+}
+.thanks h3{
+    color: var(--red-500);
+    padding: 20px;
+}
+.thanks a{
+    color: var(--red-500);
+}
+.thanks p{
+    padding: 20px;
+}
