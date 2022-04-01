@@ -1,6 +1,9 @@
 .chooselist{
     margin-bottom: 40px;
 }
+.homewhychooseus svg{
+    z-index: -1;
+}
 .homewhychooseus{
     z-index: 1;
     margin: 5% 0;

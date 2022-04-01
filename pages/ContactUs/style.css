@@ -49,3 +49,9 @@
 .scrolled.navbar-light .navbar-nav .nav-link {
     color: var(--black-500) !important;
 }
+
+@media(max-width:992px){
+    .contact-form-svg{
+        display: none;
+    }
+}

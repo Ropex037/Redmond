@@ -221,3 +221,9 @@ input {
     border: 0.5px solid var(--white-500);
     border-radius: var(--br-s);
 }
+body{
+    overflow-x: hidden !important;
+}
+@media (max-width: 991px) {
+    section:first-of-type {padding-top: 90px;}
+}

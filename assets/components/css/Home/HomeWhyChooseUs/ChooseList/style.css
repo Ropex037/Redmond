@@ -18,3 +18,9 @@ color: var(--blue-500);
 font-weight: bold;
 padding-bottom: 10px;
 }
+
+@media(max-width:560px){
+    .chooselist .listsvg{
+        padding: 5px !important;
+    }
+}

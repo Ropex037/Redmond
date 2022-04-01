@@ -1,16 +1,16 @@
-.headerandtxt h2{
-    color: var(--blue-500);
-    padding:0 40px;
-    padding-bottom: 30px;
-    
+.singlelist{
+    color: var(--white-500);
+    margin-bottom: 10px;
 }
-.headerandtxt .servicestxt{
-    padding:0 40px;
-    padding-bottom: 20px;
-  
+.packing-services{
+    position: relative;
+    overflow: hidden;
 }
-.singleelement p{
-    text-align: start!important;
+.homeservices-svg-3{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    z-index: -1;
 }
 .navbar {
     background-color:transparent !important;

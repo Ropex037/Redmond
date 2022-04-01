@@ -40,3 +40,8 @@
     left: 10%;
     top: 30%;
 }
+@media(max-width:992px){
+    .cotnact-svg-1{
+        display: none;
+    }
+}
